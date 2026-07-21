@@ -16,7 +16,7 @@ This repository contains a simple web application hosted on an AWS EC2 instance.
 <img width="676" height="891" alt="Screenshot 2026-07-21 144025" src="https://github.com/user-attachments/assets/c66cd5b4-94a7-48cc-82d7-3c30d0efb305" />
 
 
-# Update the system
+# update the system
 sudo yum update -y
 
 # Install Apache
@@ -27,8 +27,6 @@ sudo systemctl start httpd
 
 # Enable Apache at boot
 sudo systemctl enable httpd
-# OR
-sudo systemctl enable --now httpd
 
 # Check Apache status
 sudo systemctl status httpd
@@ -62,5 +60,5 @@ sudo systemctl start httpd
 sudo systemctl status httpd
 
 # Get EC2 Public IP
-curl ifconfig.me
+  curl ifconfig.me
 ------------------------------------------------------------------------------------------------------------------------------------------
